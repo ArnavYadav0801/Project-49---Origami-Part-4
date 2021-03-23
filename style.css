@@ -1,0 +1,91 @@
+.h1{
+
+color: rgb(255, 0, 106); 
+    
+}
+
+a:link {
+
+color: rgb(48, 218, 32)
+
+}
+
+a:visited {
+
+color: orangered
+
+}
+
+body{
+
+background-color: yellow; 
+    
+}
+
+.header * {
+
+border : solid
+
+}
+
+.header{
+
+background-color: blue;  
+display:flex;
+justify-content: space-between;  
+
+}
+
+.grid{
+
+display: flex;
+flex-wrap: wrap;
+justify-content: space-evenly;
+
+}
+
+.item{
+
+position : relative;
+
+}
+
+.item p{
+
+position :absolute;
+top : 45%;
+left : 50%;
+transform : translate(-30%,-30%);
+opacity : 0;
+
+}
+
+.item:hover p{
+
+opacity : 1;
+
+}
+
+.item:hover img {
+
+opacity : 0.4;
+
+}
+
+.menu {
+
+margin-right : 30px;
+
+}
+
+.menu a{
+
+margin-right: 30px;
+
+}
+
+.border{
+
+border :solid ;
+
+}
